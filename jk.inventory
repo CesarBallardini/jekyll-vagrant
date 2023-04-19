@@ -1,0 +1,3 @@
+[jk]
+jk.dev  ansible_connection=local
+

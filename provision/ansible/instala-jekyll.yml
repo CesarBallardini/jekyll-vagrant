@@ -1,0 +1,14 @@
+- hosts: jk
+  vars:
+    jekyll_version: 4.3.2
+
+  roles:
+    - { role: rvm.ruby, 
+	rvm1_gpg_key_server: 'hkp://keyserver.ubuntu.com:80',
+        tags: ruby,
+        rvm1_rubies: ['ruby-3.2.0'],
+        rvm1_user: 'vagrant',
+      }
+
+    - {role: igor_mukhin.jekyll, tags: jekyll, become: false }
+
