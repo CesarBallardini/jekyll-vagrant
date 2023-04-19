@@ -1,7 +1,7 @@
 # Jekyll Blog on a Vagrant virtual machine
 
 As a user with a Blog hosted on Github Pages<br>
-I need a way to post an keep it's dependencies updated
+I need a way to post and keep it's dependencies updated
 
 
 * Launch the VM with all dependencies: Ruby, Jekyll, etc.
